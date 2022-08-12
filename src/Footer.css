@@ -1,0 +1,14 @@
+.Footer {
+  margin-top: 20px;
+}
+.Footer a,
+.Footer a:visited {
+  color: black;
+  text-decoration: none;
+  transition: all 150ms ease-in-out;
+}
+.Footer a:hover {
+  color: #f7630c;
+  cursor: pointer;
+  text-decoration: underline;
+}
