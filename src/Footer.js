@@ -4,7 +4,7 @@ export default function Footer() {
   return (
     <div className="Footer">
       <a
-        href="https://github.com/tbrincatos/weather-app-gentilly"
+        href="https://github.com/tbrincatos/dictionary-app.git"
         target="_blank"
         rel="noopener noreferrer"
         title="Go to GitHub account"
