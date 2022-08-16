@@ -7,10 +7,10 @@ export default function App() {
   return (
     <div className="App">
       <div className="container">
-        <header className="App-header">
-          <h3>Maltisian</h3>
-          <h2>Dictionary App</h2>
+        <header className="heading">
+          <div className="title">MALTISIAN</div>
         </header>
+        <h2>Dictionary App</h2>
         <main>
           <DictionarySearch />
         </main>
