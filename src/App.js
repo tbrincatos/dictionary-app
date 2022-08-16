@@ -7,16 +7,16 @@ export default function App() {
   return (
     <div className="App">
       <div className="container">
-        <header className="heading">
-          <div className="title">MALTISIAN</div>
-        </header>
-        <h2>Dictionary App</h2>
-        <main>
-          <DictionarySearch />
-        </main>
-        <footer>
-          <Footer />
-        </footer>
+        <div className="heading">
+          <div className="title">Dictionary</div>
+          <h2>Look up...</h2>
+          <main>
+            <DictionarySearch />
+          </main>
+          <footer>
+            <Footer />
+          </footer>
+        </div>
       </div>
     </div>
   );
