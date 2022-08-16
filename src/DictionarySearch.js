@@ -5,7 +5,6 @@ export default function DictionarySearch() {
   const [input, setInput] = useState(null);
   const [data, setData] = useState(null);
   function handleData(response) {
-    console.log(response.data[0]);
     setData(response.data[0]);
   }
   function makeApiCall() {
