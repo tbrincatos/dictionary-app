@@ -2,9 +2,11 @@
 .Meaning .definition {
   color: var(--background-border);
   font-family: "Nunito", sans-serif;
-  font-size: larger;
 }
 .Meaning .example {
   color: var(--background-border);
   font-family: "Nunito", sans-serif;
+}
+.Meaning .part-of-speech {
+  font-weight: bolder;
 }
