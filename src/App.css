@@ -7,6 +7,13 @@
   --background-border: #445f7f;
 }
 
+.App .flex-wrapper {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
 .App .container-image {
   background-image: url("header.jpg");
   background-position: center;

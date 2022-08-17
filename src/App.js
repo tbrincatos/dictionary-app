@@ -7,15 +7,21 @@ export default function App() {
   return (
     <div className="App">
       <div className="container-fluid container-image">
-        <header>
-          <div className="title">Dictionary</div>
-        </header>
-        <main>
-          <DictionarySearch />
-        </main>
-        <footer>
-          <Footer />
-        </footer>
+        <div className="flex-wrapper">
+          <div>
+            <header>
+              <div className="title">Dictionary</div>
+            </header>
+            <main>
+              <DictionarySearch />
+            </main>
+          </div>
+          <div>
+            <footer>
+              <Footer />
+            </footer>
+          </div>
+        </div>
       </div>
     </div>
   );
