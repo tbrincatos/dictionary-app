@@ -24,3 +24,14 @@
   margin-right: 15px;
   text-align: center;
 }
+@media (max-width: 700px) {
+  .DictionarySearch .search-text {
+    font-size: 25px;
+    line-height: 1;
+  }
+
+  .DictionarySearch .search-bar {
+    font-family: "Nunito", sans-serif;
+    font-size: smaller;
+  }
+}
