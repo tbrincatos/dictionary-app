@@ -25,6 +25,7 @@ export default function DictionarySearch() {
           type="search"
           placeholder="Search for..."
           onChange={handleChange}
+          className="search-bar"
         />
       </form>
       <Results data={data} />
