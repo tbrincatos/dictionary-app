@@ -8,10 +8,14 @@
   border: 2px solid var(--primary-color);
   border-radius: 30px;
   box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.24);
-  font-family: "Nunito", sans-serif;
-  font-size: larger;
+  font-family: "Concert One", cursive;
+  font-size: 25px;
   font-weight: bolder;
   text-align: center;
+}
+.DictionarySearch .search-bar:focus {
+  outline: none;
+  border-color: var(--primary-color);
 }
 .DictionarySearch .search-text {
   font-family: "Concert One", cursive;
