@@ -10,7 +10,6 @@ export default function App() {
         <header>
           <div className="title">Dictionary</div>
         </header>
-        <h2>Look up...</h2>
         <main>
           <DictionarySearch />
         </main>

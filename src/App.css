@@ -2,6 +2,7 @@
   --accent-color: #3cbdd3;
   --primary-color: #fefefc;
   --secondary-color: #5a6275;
+  --tertiary-color: #527e90;
   --background-color: #b0c2d021;
   --background-border: #445f7f;
 }
@@ -23,11 +24,7 @@
   font-size: 80px;
   padding: 30px 0;
 }
-.App h2 {
-  font-family: "Concert One", cursive;
-  color: var(--primary-color);
-  font-size: 40px;
-}
+
 @media (max-width: 600px) {
   .App .title {
     font-size: 55px;

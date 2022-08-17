@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import Results from "./Results";
+import "./DictionarySearch.css";
 import axios from "axios";
 export default function DictionarySearch() {
   const [input, setInput] = useState(null);
@@ -20,14 +21,22 @@ export default function DictionarySearch() {
   }
   return (
     <div className="DictionarySearch">
-      <form onSubmit={handleSubmit}>
-        <input
-          type="search"
-          placeholder="Search for..."
-          onChange={handleChange}
-          className="search-bar"
-        />
-      </form>
+      <div className="d-flex justify-content-between">
+        <div>
+          <h2>Look up...</h2>
+          <button className="btn btn-primary">hi</button>
+        </div>
+        <div>
+          <form onSubmit={handleSubmit}>
+            <input
+              type="search"
+              placeholder="..."
+              onChange={handleChange}
+              className="search-bar"
+            />
+          </form>
+        </div>
+      </div>
       <Results data={data} />
     </div>
   );

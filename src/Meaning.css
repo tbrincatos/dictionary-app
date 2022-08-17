@@ -1,0 +1,10 @@
+.Meaning .part-of-speech,
+.Meaning .definition {
+  color: var(--background-border);
+  font-family: "Nunito", sans-serif;
+  font-size: larger;
+}
+.Meaning .example {
+  color: var(--background-border);
+  font-family: "Nunito", sans-serif;
+}
