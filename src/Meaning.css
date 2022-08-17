@@ -3,10 +3,14 @@
   color: var(--background-border);
   font-family: "Nunito", sans-serif;
 }
+.Meaning .definition {
+  margin-bottom: 0;
+}
 .Meaning .example {
   color: var(--background-border);
   font-family: "Nunito", sans-serif;
   font-size: 15px;
+  margin-bottom: 10px;
 }
 .Meaning .part-of-speech {
   font-weight: bolder;
