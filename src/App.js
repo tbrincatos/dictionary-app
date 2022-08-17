@@ -6,17 +6,17 @@ import Footer from "./Footer";
 export default function App() {
   return (
     <div className="App">
-      <div className="container">
-        <div className="heading">
+      <div className="container-fluid container-image">
+        <header>
           <div className="title">Dictionary</div>
-          <h2>Look up...</h2>
-          <main>
-            <DictionarySearch />
-          </main>
-          <footer>
-            <Footer />
-          </footer>
-        </div>
+        </header>
+        <h2>Look up...</h2>
+        <main>
+          <DictionarySearch />
+        </main>
+        <footer>
+          <Footer />
+        </footer>
       </div>
     </div>
   );

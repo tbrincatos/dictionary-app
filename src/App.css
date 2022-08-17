@@ -8,10 +8,13 @@
 .App {
   text-align: center;
 }
-.App .heading {
+.App .container-image {
   background-image: url("header.jpg");
   background-position: center;
+  background-repeat: repeat;
   background-size: cover;
+  width: 100%;
+  min-height: 100vh;
 }
 .App .title {
   color: var(--primary-color);
@@ -25,12 +28,12 @@
     font-size: 55px;
   }
 }
-@media (min-width: 601px) {
+
+/* @media (min-width: 601px) {
   .App .title {
   }
 }
-
-/*@keyframes App-logo-spin {
+@keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
   }
