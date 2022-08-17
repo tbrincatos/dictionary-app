@@ -21,21 +21,17 @@ export default function DictionarySearch() {
   }
   return (
     <div className="DictionarySearch">
-      <div className="d-flex justify-content-between">
-        <div>
-          <h2>Look up...</h2>
-          <button className="btn btn-primary">hi</button>
-        </div>
-        <div>
-          <form onSubmit={handleSubmit}>
-            <input
-              type="search"
-              placeholder="..."
-              onChange={handleChange}
-              className="search-bar"
-            />
-          </form>
-        </div>
+      <div className="d-flex justify-content-center mb-5">
+        <h2 className="search-text">Look up</h2>
+
+        <form onSubmit={handleSubmit}>
+          <input
+            type="search"
+            placeholder="..."
+            onChange={handleChange}
+            className="search-bar"
+          />
+        </form>
       </div>
       <Results data={data} />
     </div>
