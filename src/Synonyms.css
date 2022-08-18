@@ -1,11 +1,11 @@
 .Synonyms button {
   background-color: var(--secondary-color);
-  border: 1px solid var(--background-border);
-  border-radius: 20px;
+  border: 1px solid var(--secondary-color);
+  border-radius: 30px;
   color: var(--primary-color);
   font-family: "Nunito", sans-serif;
   font-size: 15px;
-  padding: 2px 10px;
-  margin-right: 5px;
-  margin-bottom: 15px;
+  padding: 4px 14px;
+  margin-right: 10px;
+  margin-bottom: 12px;
 }

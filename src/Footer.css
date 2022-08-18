@@ -1,5 +1,6 @@
 .Footer {
   color: var(--primary-color);
+  font-family: "Nunito", sans-serif;
   padding: 30px 0;
   text-align: center;
 }
