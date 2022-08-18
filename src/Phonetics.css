@@ -1,0 +1,9 @@
+.Phonetics {
+  margin-bottom: 20px;
+}
+
+.Phonetics .phonetic-text {
+  color: var(--background-border);
+  font-family: "Nunito", sans-serif;
+  margin-right: 15px;
+}

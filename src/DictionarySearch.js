@@ -3,7 +3,7 @@ import Results from "./Results";
 import "./DictionarySearch.css";
 import axios from "axios";
 export default function DictionarySearch() {
-  const [input, setInput] = useState(null);
+  const [input, setInput] = useState("");
   const [data, setData] = useState(null);
   function handleData(response) {
     setData(response.data[0]);
