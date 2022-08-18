@@ -2,7 +2,7 @@
   display: inline-block;
   margin-right: 5px;
   text-decoration: none;
-  transition: all 150ms ease-in-out;
+  transition: all 180ms linear;
 }
 .Audio a:hover {
   transform: scale(1.4);
