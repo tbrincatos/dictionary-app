@@ -2,11 +2,7 @@ import React from "react";
 import "./Audio.css";
 export default function Audio(props) {
   if (props.audio === "") {
-    return (
-      <span className="Audio">
-        <span className="no-audio"> </span>
-      </span>
-    );
+    return null;
   } else {
     return (
       <span className="Audio">
