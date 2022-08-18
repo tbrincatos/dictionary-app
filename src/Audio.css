@@ -1,8 +1,10 @@
 .Audio a {
+  display: inline-block;
   margin-right: 5px;
   text-decoration: none;
   transition: all 150ms ease-in-out;
 }
 .Audio a:hover {
-  font-size: x-large;
+  transform: scale(1.4);
+  transform-origin: center;
 }
