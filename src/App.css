@@ -1,10 +1,7 @@
 :root {
   --accent-color: #3cbdd3;
   --primary-color: #fefefc;
-  --secondary-color: #5a6275;
-  --tertiary-color: #527e90;
-  --background-color: #b0c2d021;
-  --background-border: #445f7f;
+  --secondary-color: #314b6a;
 }
 
 .App .flex-wrapper {
