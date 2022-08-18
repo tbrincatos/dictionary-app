@@ -1,4 +1,8 @@
 .Audio a {
   margin-right: 5px;
   text-decoration: none;
+  transition: all 150ms ease-in-out;
+}
+.Audio a:hover {
+  font-size: x-large;
 }
