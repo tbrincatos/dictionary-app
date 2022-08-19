@@ -3,11 +3,11 @@ import Meaning from "./Meaning";
 export default function Meanings(props) {
   return (
     <div className="Meanings">
-      {props.meanings.map(function (meaning, index) {
+      {props.meanings.map(function(meaning, index) {
         return (
-          <div key={index}>
+          <ul key={index} className="m-0 p-0">
             <Meaning meaning={meaning} />
-          </div>
+          </ul>
         );
       })}
     </div>
