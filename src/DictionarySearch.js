@@ -1,8 +1,10 @@
 import React, { useState } from "react";
+import axios from "axios";
+
 import Results from "./Results";
 
 import "./DictionarySearch.css";
-import axios from "axios";
+
 export default function DictionarySearch() {
   const [input, setInput] = useState("");
   const [data, setData] = useState(null);

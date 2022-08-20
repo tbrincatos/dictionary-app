@@ -1,5 +1,7 @@
 import React from "react";
+
 import "./App.css";
+
 import DictionarySearch from "./DictionarySearch";
 import Footer from "./Footer";
 
@@ -10,7 +12,7 @@ export default function App() {
         <div className="flex-wrapper">
           <div>
             <header>
-              <div className="title">Dictionary</div>
+              <h1 className="title">Dictionary</h1>
             </header>
             <main>
               <DictionarySearch />

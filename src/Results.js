@@ -1,8 +1,11 @@
 import React from "react";
+
 import Images from "./Images";
 import Meanings from "./Meanings";
 import Phonetics from "./Phonetics";
+
 import "./Results.css";
+
 export default function Results(props) {
   if (props.data) {
     return (

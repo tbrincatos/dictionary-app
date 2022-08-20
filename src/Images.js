@@ -1,5 +1,7 @@
 import React from "react";
+
 import "./Images.css";
+
 export default function Images(props) {
   if (props.images) {
     return (
@@ -10,7 +12,7 @@ export default function Images(props) {
               <a href={image.url} target="_blank" rel="noopener noreferrer">
                 <img
                   src={image.src.medium}
-                  alt="keyword"
+                  alt={image.alt}
                   title={image.alt}
                   className="img-fluid"
                 />
