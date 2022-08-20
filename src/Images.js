@@ -8,7 +8,12 @@ export default function Images(props) {
           return (
             <span key={index}>
               <a href={image.url} target="_blank" rel="noopener noreferrer">
-                <img src={image.src.medium} alt="keyword" title={image.alt} />
+                <img
+                  src={image.src.medium}
+                  alt="keyword"
+                  title={image.alt}
+                  className="img-fluid"
+                />
               </a>
             </span>
           );
